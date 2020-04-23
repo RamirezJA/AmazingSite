@@ -1,3 +1,3 @@
 # AmazingSite
 
-My Portfoli site. Feel free to use it as a template!
+My Portfolio site. Feel free to use it as a template!
