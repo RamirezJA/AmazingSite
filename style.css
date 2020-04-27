@@ -21,20 +21,12 @@ h1 {
     color: black;
 }
 
-.jumbotron {
-    /*     background-image: url("./images/nodejs.jpeg"); */
-    background-color: black;
-    background-size: 100% 100%;
-}
 
 #zone-white {
     background-color: white;
 }
 
-a {
+#ok {
+    color: black;
     text-decoration: none;
 }
-
-
-
-/*add font*/

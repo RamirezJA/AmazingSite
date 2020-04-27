@@ -33,10 +33,15 @@
     <title>Projects!</title>
   </head>
   <body>
-    <nav
-      class="navbar transparent navbar-inverse navbar-expand-lg navbar-dark bg-dark"
-    >
-      <a class="navbar-brand" href="#">JR</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="/index.html"
+        ><img
+          src="/images/logo-white.png"
+          width="40"
+          height="40"
+          class="d-inline-block align-top"
+          alt="JR"
+      /></a>
       <button
         class="navbar-toggler"
         type="button"
@@ -52,21 +57,18 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#"
+            <a class="nav-link" href="/index.html"
               >Home <span class="sr-only">(current)</span></a
             >
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/projects.html">Projects</a>
+          </li>
         </ul>
       </div>
-      <a
-        id="linkin"
-        title="LinkedIn"
-        href="https://www.linkedin.com/in/ramirezja/"
-        ><i class="fab fa-linkedin fa-3x pr-3"></i
-      ></a>
-      <a id="github" title="Github" href="https://github.com/RamirezJA"
-        ><i class="fab fa-github fa-3x"></i
-      ></a>
     </nav>
 
     <div id="zone-white" class="container mt-5">
@@ -78,63 +80,56 @@
       <div class="row">
         <div class="col">
           <img src="./images/cooking.png" class="img-fluid" alt="cooking" />
-          <a href="https://quiet-garden-88758.herokuapp.com/"
-            ><h4>Cooking Courses Web App</h4></a
+          <a id="ok" href="https://quiet-garden-88758.herokuapp.com/"
+            ><h4 class="pt-2">Cooking Courses</h4></a
           >
+          <hr />
           <h5>
-            Web app that allows teachers to create cooking courses,
-            register/remove students, and chat in a live forum. Made w/
-            NodeJS+Express+Mongodb+Passport+SocketIO.
+            Web app that allows teachers to create cooking courses, register
+            students, with real-time chat.
           </h5>
         </div>
-        <div class="col">
-          <img src="./images/dog.png" class="img-fluid" alt="cooking" />
-          <a href="http://jdevla.pythonanywhere.com/"><h4>Study Guide</h4></a>
-          <h5>
-            Django web app that provides k-12 history students quizzes, videos,
-            and a comment section.
-          </h5>
-        </div>
-        <div class="col">
-          <img src="./images/neighbor.png" class="img-fluid" alt="sql" />
-          <a href="https://github.com/RamirezJA/LogsAnalysisProject"
-            ><h4>Logs Analysis</h4></a
-          >
-          <h5>A reporting tool that interacts with a live SQL database.</h5>
-        </div>
+
         <div class="col">
           <img src="./images/old.png" class="img-fluid" alt="maps" />
-          <a href="https://ramirezja.github.io/Neighborhood-Maps-Project/"
-            ><h4>Neighborhood-Maps-Project</h4></a
+          <a
+            id="ok"
+            href="https://ramirezja.github.io/Neighborhood-Maps-Project/"
+            ><h4 class="pt-2">Altamed Clinic Locator</h4></a
           >
+          <hr />
           <h5>
-            Single page web application using knockoutjs and several APIs.
+            Single page web application that locates Altamed clinics for the
+            residents of East L.A.
           </h5>
         </div>
         <div class="col">
           <img src="./images/beach.png" class="img-fluid" alt="games" />
           <a
+            id="ok"
             href="https://play.google.com/store/apps/developer?id=Tranquilo&hl=en"
-            ><h4>Games</h4></a
+            ><h4 class="pt-2">Games</h4></a
           >
+          <hr />
           <h5>
             PlayStore Games made w/ Unity3d. Fully monetized with
-            store+interstatial ads. Flappy Bird game/Snake game w/ PhaserJS.
-          </h5>
-        </div>
-        <div class="col">
-          <img src="./images/ship.png" class="img-fluid" alt="games" />
-          <a href="https://github.com/RamirezJA/linux-server-configuration"
-            ><h4>Linux Server Configuration</h4></a
-          >
-          <h5>
-            Secure linux server on AWS.Made with Python,
-            Flask,Apache,Sql-Alchemy,Psychopg2,virtualenv,httplib2.
+            store+interstatial ads.
           </h5>
         </div>
       </div>
     </div>
     <br />
+    <div class="container">
+      <div class="row text-center pt-5">
+        <div class="col">
+          <a href="https://github.com/RamirezJA"
+            ><button type="button" class="btn btn-danger btn-lg">
+              More Projects!
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
