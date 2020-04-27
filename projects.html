@@ -21,7 +21,10 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
       rel="stylesheet"
     />
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+    />
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
@@ -32,7 +35,7 @@
 
     <title>Projects!</title>
   </head>
-  <body>
+  <body id="body">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand" href="/index.html"
         ><img
@@ -72,7 +75,18 @@
     <div id="zone-white" class="container mt-5">
       <div class="row">
         <div class="col">
-          <h1 class="text-dark pt-3 pb-3">Projects</h1>
+          <h1 class="animated rotateInDownLeft delay-2s text-dark pt-3 pb-3">
+            Projects
+          </h1>
+        </div>
+        <div class="col">
+          <a id="plus" href="https://github.com/RamirezJA"
+            ><h1
+              class="animated infinite bounce delay-5s text-dark pt-3 text-right pr-1"
+            >
+              +
+            </h1>
+          </a>
         </div>
       </div>
       <div class="row">
@@ -115,18 +129,8 @@
           </h5>
         </div>
       </div>
-    </div>
-    <br />
-    <div class="container">
-      <div class="row text-center pt-5 pb-4">
-        <div class="col">
-          <a href="https://github.com/RamirezJA"
-            ><button type="button" class="btn btn-danger btn-lg">
-              More Projects!
-            </button>
-          </a>
-        </div>
-      </div>
+
+      <br />
     </div>
 
     <!-- Optional JavaScript -->

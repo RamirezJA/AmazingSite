@@ -25,12 +25,17 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
-    <link rel="shortcut icon" href="#" />
+    <link rel="shortcut icon" href="./images/logo.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+    />
+
     <script type="text/javascript" src="/script.js"></script>
 
     <title>Build Amazing!</title>
   </head>
-  <body>
+  <body id="body">
     <!-- Image and text -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand" href="/index.html"
@@ -67,33 +72,22 @@
         </ul>
       </div>
     </nav>
-    <div class="container d-flex align-items-center h-100">
+    <div class="container pt-2 mt-2">
       <div class="row">
-        <header class="text-center col-12">
-          <h1>
-            <strong>Jose Ramirez - Full Stack Javascript Developer </strong>
-          </h1>
-        </header>
-        <div class="buffer col-12"></div>
-        <section class="text-center col-12">
-          <hr />
-          <a href="/projects.html">
-            <button class="btn btn-primary btn-xl">Projects!</button>
-          </a>
-        </section>
+        <div class="col text-center">
+          <img
+            class="animated bounceInDown delay-2s"
+            src="./images/rckt.png"
+            alt="rocket"
+          />
+        </div>
       </div>
-    </div>
-    <div class="container">
-      <div class="row fixed-bottom pb-3 pl-2" id="typewriter">
-        <div class="col">
-          <h1>
-            Let's build
-            <span
-              class="txt-rotate"
-              data-period="2000"
-              data-rotate='[ "with NodeJS + React","awesome web applications!","beautiful UI/UX", "something serverless", "a chatbot!" ]'
-            ></span>
-          </h1>
+      <div class="row">
+        <div class="col text-center pt-2">
+          <h1 class="animated infinite pulse delay-5s">Jose Ramirez</h1>
+          <h2 class="animated pulse delay-5s">
+            Full-Stack Javascript Developer
+          </h2>
         </div>
       </div>
     </div>

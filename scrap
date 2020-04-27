@@ -1,0 +1,14 @@
+<div class="container pt-5 mt-5">
+      <div class="row">
+        <div class="col">
+          <img
+            class="animated bounceInDown delay-2s pl-4"
+            src="./images/rckt.png"
+            alt="rocket"
+          />
+        </div>
+        <div class="col text-center">
+          <h1 class="animated pulse delay-5s">Jose Ramirez</h1>
+          <h2 class="animated pulse delay-5s">
+            Full-Stack Javascript Developer
+          </h2>
