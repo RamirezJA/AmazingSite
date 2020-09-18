@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="#" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/v4-shims.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+
+    <title>React Projects!</title>
+  </head>
+  <body id="body">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="/index.html"
+        ><img
+          src="/images/logo-white.png"
+          width="40"
+          height="40"
+          class="d-inline-block align-top"
+          alt="JR"
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/projects.html">Projects</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div id="zone-white" class="container mt-md-5">
+      <div class="row">
+        <div class="col">
+          <h1 class="animated rotateInDownLeft delay-1s text-dark pt-3 pb-3">
+            React Projects
+          </h1>
+        </div>
+        <div class="col">
+          <a id="plus" href="https://github.com/RamirezJA"
+            ><h1
+              class="animated infinite bounce delay-4s text-dark pt-3 text-right"
+            >
+              +
+            </h1>
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <img src="data:image/png;base64,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" class="img-fluid" alt="cooking" />
+          <a id="ok" href="https://quiet-garden-88758.herokuapp.com/"
+            ><h4 class="pt-2">React E-Commerce</h4></a
+          >
+          <hr />
+          <h5>
+            Checkouts,One-time payments, save credit card details, recurring plan subscriptions.Synced with Firestore in realtime. Typescript!
+          </h5>
+        </div>
+
+        <div class="col">
+          <img src="./images/old.png" class="img-fluid" alt="maps" />
+          <a id="ok" href="https://fend-smx.herokuapp.com/"
+            ><h4 class="pt-2">Face Detection AI App</h4></a
+          >
+          <hr />
+          <h5>
+            A React application that uses Clarifai AI. Backend uses NodeJS +
+            PostgreSQL hosted on heroku. App will detect faces in an image.
+          </h5>
+        </div>
+        <div class="col">
+          <img src="./images/pomodoro.png" class="img-fluid" alt="games" />
+          <a
+            id="ok"
+            href="http://delicate-library.surge.sh/"
+            ><h4 class="pt-2">Pomodoro Clock</h4></a
+          >
+          <hr />
+          <h5>
+            Pomodoro Clock using UseEffect.
+          </h5>
+        </div>
+        <div class="col">
+          <img src="./images/robots.png" class="img-fluid" alt="games" />
+          <a
+            id="ok"
+            href="https://ramirezja.github.io/Robot-Friends/"
+            ><h4 class="pt-2">RoboFriends</h4></a
+          >
+          <hr />
+          <h5>
+            Filter your favorite robots from the random robots API!
+          </h5>
+        </div>
+      </div>
+
+      <br />
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
